@@ -1,0 +1,149 @@
+@media screen and (min-width:900px) {
+  body{
+    background-color: #02010A;
+    font-family: Dancing Script;
+}
+.contenedor{
+  text-align: center;
+  width: 900px;
+  margin: 0 auto;
+}
+header{
+  background-color: #5B7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+header h1{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px #02010A;
+}
+header a{
+  color: white;
+  text-decoration: underline;
+}
+header a:hover{
+  color: white;
+  text-decoration: none;
+}
+#submenu1{
+  text-align: right;
+  font-size: 1.3em;
+}
+#contenido img{
+  box-shadow: 2px 2px #02010A;
+}
+header{
+  animation-name: animacionHeader;
+  animation-duration: 1s;
+}
+@keyframes animacionHeader{
+  from{
+    margin-top: 150%;
+  }
+  to{
+    margin-top:-5%;
+  }
+}
+.ImgCentral{
+  text-align: center;
+  background-color: #82C3A6;
+}
+.ImgCentral img{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 90%;
+}
+.ImgSecundarias{
+  background-color: #D5C75F;
+  border: 1px 1px 1px 1px;
+  display: flex;
+  flex-direction: row;
+}
+#imagen2{
+  width: 50%;
+  text-align: center;
+  color: black;
+  font-size: 1.3em;
+  font-weight: bold;
+  text-decoration: underline;
+  text-shadow: none;
+}
+#imagen2 img{
+    width: 89%;
+  margin-top: 20px;
+}
+#imagen3{
+    width: 50%;
+    text-align: center;
+    color: black;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: underline;
+    text-shadow: none;
+}
+#imagen3 img{
+    width: 89%;
+    margin-top: 20px;
+}
+#imagen2 img:hover{
+  box-shadow: 2px 2px #82C3A6;
+  animation-name: animacion2;
+  animation-duration: 2s;
+}
+@keyframes animacion2{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
+}
+#imagen3 img:hover{
+  box-shadow: 2px 2px #82C3A6;
+  animation-name: animacion3;
+  animation-duration: 1s;
+}
+@keyframes animacion3{
+  from{
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
+  to{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+  }
+}
+footer{
+  background: #C6D5C5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 100%;
+}
+#piePagina{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-shadow: none;
+  color: #02010A;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.contacto, .termino, .redesSociales, .derechos{
+  width: 25%;
+}
+ul li{
+  text-align: center;
+  list-style: none;
+}
+ul a{
+  color: #02010A;
+  text-decoration: none;
+}
+i a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+}
